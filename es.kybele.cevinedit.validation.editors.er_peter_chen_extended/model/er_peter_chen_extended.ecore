@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="er_peter_chen_extended" nsURI="http://www.kybele.es/gmf/er_peter_chen_extended"
+    nsPrefix="er_peter_chen_extended">
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCDiagram">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="links" upperBound="-1"
+        eType="#//ERPCLink" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relationships" upperBound="-1"
+        eType="#//ERPCRelationship" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attributes" upperBound="-1"
+        eType="#//ERPCAttribute" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entities" upperBound="-1"
+        eType="#//ERPCEntity" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCLink" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCEntityRelationshipLink" eSuperTypes="#//ERPCLink">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relationship" lowerBound="1"
+        eType="#//ERPCRelationship"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entity" lowerBound="1"
+        eType="#//ERPCEntity"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cardinality" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCEntityAttributeLink" eSuperTypes="#//ERPCLink">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entity" lowerBound="1"
+        eType="#//ERPCEntity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" lowerBound="1"
+        eType="#//ERPCAttribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCRelationshipAttributeLink" eSuperTypes="#//ERPCLink">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="relationship" lowerBound="1"
+        eType="#//ERPCRelationship"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" lowerBound="1"
+        eType="#//ERPCAttribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCRelationship" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cardinality" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCRegularRelationship" eSuperTypes="#//ERPCRelationship"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCIdentifyingRelationship" eSuperTypes="#//ERPCRelationship"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCAttribute" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCRegularAttribute" eSuperTypes="#//ERPCAttribute"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCCompositeAttribute" eSuperTypes="#//ERPCAttribute">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="composedAttributes" upperBound="-1"
+        eType="#//ERPCRegularAttribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCPrimaryKeyAttribute" eSuperTypes="#//ERPCAttribute"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCWeakKeyAttribute" eSuperTypes="#//ERPCAttribute"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCDerivedAttribute" eSuperTypes="#//ERPCAttribute"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCMultiValuedAttribute" eSuperTypes="#//ERPCAttribute"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCEntity" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCRegularEntity" eSuperTypes="#//ERPCEntity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ERPCWeakEntity" eSuperTypes="#//ERPCEntity"/>
+</ecore:EPackage>

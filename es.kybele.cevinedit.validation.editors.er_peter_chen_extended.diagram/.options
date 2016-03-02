@@ -1,0 +1,7 @@
+# Tracing options for the es.kybele.cevinedit.validation.editors.er_peter_chen_extended.diagram plug-in
+
+# Common issues
+es.kybele.cevinedit.validation.editors.er_peter_chen_extended.diagram/debug=false
+
+# Visual IDs
+es.kybele.cevinedit.validation.editors.er_peter_chen_extended.diagram/debug/visualID=false

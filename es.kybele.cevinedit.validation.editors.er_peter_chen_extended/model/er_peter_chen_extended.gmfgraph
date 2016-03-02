@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmfgraph:Canvas xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmfgraph="http://www.eclipse.org/gmf/2006/GraphicalDefinition" name="er_peter_chen_extended">
+  <figures name="Default">
+    <descriptors name="ERPCEntityRelationshipLinkFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ERPCEntityRelationshipLinkFigure" lineWidth="2">
+        <foregroundColor xsi:type="gmfgraph:ConstantColor" value="black"/>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.14/@actualFigure"/>
+    </descriptors>
+    <descriptors name="ERPCEntityAttributeLinkFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ERPCEntityAttributeLinkFigure" lineWidth="2">
+        <foregroundColor xsi:type="gmfgraph:ConstantColor" value="black"/>
+      </actualFigure>
+    </descriptors>
+    <descriptors name="ERPCRelationshipAttributeLinkFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ERPCRelationshipAttributeLinkFigure" lineWidth="2">
+        <foregroundColor xsi:type="gmfgraph:ConstantColor" value="black"/>
+      </actualFigure>
+    </descriptors>
+    <descriptors name="ERPCCompositeAttributeAttributeLinkFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ERPCCompositeAttributeAttributeLinkFigure" lineWidth="2">
+        <foregroundColor xsi:type="gmfgraph:ConstantColor" value="black"/>
+      </actualFigure>
+    </descriptors>
+    <descriptors name="ERPCRegularRelationshipFigure">
+      <actualFigure xsi:type="gmfgraph:ScalablePolygon" name="ERPCRegularRelationshipRombhBaseLayout" lineWidth="3">
+        <layout xsi:type="gmfgraph:XYLayout"/>
+        <foregroundColor xsi:type="gmfgraph:RGBColor" red="95" green="110" blue="210"/>
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="160" green="170" blue="238"/>
+        <minimumSize dx="150" dy="50"/>
+        <preferredSize dx="150" dy="50"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="15" left="50"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ERPCRegularRelationshipLabel" text="Set Label...">
+          <font xsi:type="gmfgraph:BasicFont" faceName="Arial" style="BOLD"/>
+        </children>
+        <template x="75"/>
+        <template x="150" y="25"/>
+        <template x="75" y="50"/>
+        <template y="25"/>
+        <template x="75"/>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.4/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="ERPCIdentifyingRelationshipFigure">
+      <actualFigure xsi:type="gmfgraph:ScalablePolygon" name="ERPCIdentifyingRelationshipPolygonBaseLayout" lineWidth="2">
+        <layout xsi:type="gmfgraph:XYLayout"/>
+        <foregroundColor xsi:type="gmfgraph:RGBColor" red="125" green="132" blue="187"/>
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="164" green="169" blue="204"/>
+        <maximumSize dx="150" dy="60"/>
+        <minimumSize dx="150" dy="60"/>
+        <preferredSize dx="150" dy="60"/>
+        <children xsi:type="gmfgraph:ScalablePolygon" name="ERPCIdentifyingRelationshipPolygonInternal" lineWidth="2">
+          <layoutData xsi:type="gmfgraph:XYLayoutData">
+            <topLeft/>
+            <size dx="140" dy="55"/>
+          </layoutData>
+          <layout xsi:type="gmfgraph:XYLayout"/>
+          <foregroundColor xsi:type="gmfgraph:RGBColor" red="125" green="132" blue="187"/>
+          <backgroundColor xsi:type="gmfgraph:RGBColor" red="164" green="169" blue="204"/>
+          <maximumSize dx="140" dy="55"/>
+          <minimumSize dx="140" dy="55"/>
+          <preferredSize dx="140" dy="55"/>
+          <border xsi:type="gmfgraph:MarginBorder">
+            <insets top="21" left="40"/>
+          </border>
+          <children xsi:type="gmfgraph:Label" name="ERPCIdentifyingRelationshipLabel" text="Set Label...">
+            <font xsi:type="gmfgraph:BasicFont" faceName="Arial" style="BOLD"/>
+          </children>
+          <template x="72" y="5"/>
+          <template x="140" y="31"/>
+          <template x="72" y="55"/>
+          <template x="10" y="31"/>
+          <template x="72" y="5"/>
+        </children>
+        <template x="75"/>
+        <template x="160" y="30"/>
+        <template x="75" y="60"/>
+        <template y="30"/>
+        <template x="75"/>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.5/@actualFigure/@children.0/@children.0"/>
+    </descriptors>
+    <descriptors name="ERPCRegularAttributeFigure">
+      <actualFigure xsi:type="gmfgraph:Ellipse" name="ERPCRegularAttributeEllipseBaseLayout" lineWidth="2">
+        <layout xsi:type="gmfgraph:XYLayout"/>
+        <foregroundColor xsi:type="gmfgraph:RGBColor" red="208" green="137" blue="159"/>
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="239" green="204" blue="216"/>
+        <maximumSize dx="100" dy="40"/>
+        <minimumSize dx="100" dy="40"/>
+        <preferredSize dx="100" dy="40"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="10" left="20"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ERPCRegularAttributeLabel" text="Set Label...">
+          <font xsi:type="gmfgraph:BasicFont" faceName="Arial" style="BOLD"/>
+        </children>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.6/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="ERPCCompositeAttributeFigure">
+      <actualFigure xsi:type="gmfgraph:Ellipse" name="ERPCCompositeAttributeEllipseBaseLayout" lineWidth="2">
+        <layout xsi:type="gmfgraph:XYLayout"/>
+        <foregroundColor xsi:type="gmfgraph:RGBColor"/>
+        <backgroundColor xsi:type="gmfgraph:ConstantColor"/>
+        <maximumSize dx="100" dy="40"/>
+        <minimumSize dx="100" dy="40"/>
+        <preferredSize dx="100" dy="40"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="10" left="20"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ERPCCompositeAttributeLabel" text="Set Label...">
+          <font xsi:type="gmfgraph:BasicFont" faceName="Arial" style="BOLD"/>
+        </children>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.7/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="ERPCPrimaryKeyAttributeFigure">
+      <actualFigure xsi:type="gmfgraph:Ellipse" name="ERPCPrimaryKeyAttributeEllipseBaseLayout" lineWidth="2">
+        <layout xsi:type="gmfgraph:XYLayout"/>
+        <foregroundColor xsi:type="gmfgraph:ConstantColor" value="red"/>
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="242" green="183" blue="191"/>
+        <maximumSize dx="100" dy="40"/>
+        <minimumSize dx="100" dy="40"/>
+        <preferredSize dx="100" dy="40"/>
+        <children xsi:type="gmfgraph:Label" name="ERPCPrimaryKeyAttributeLabel" text="Set Label...">
+          <font xsi:type="gmfgraph:BasicFont" faceName="Arial" style="BOLD"/>
+          <insets top="10" left="20"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="ERPCPrimaryKeyAttributeUnderline" lineWidth="2">
+          <layoutData xsi:type="gmfgraph:XYLayoutData">
+            <topLeft x="10" y="24"/>
+            <size dx="80" dy="2"/>
+          </layoutData>
+          <layout xsi:type="gmfgraph:XYLayout"/>
+          <backgroundColor xsi:type="gmfgraph:ConstantColor" value="black"/>
+          <maximumSize dx="80" dy="2"/>
+          <minimumSize dx="80" dy="2"/>
+          <preferredSize dx="80" dy="2"/>
+        </children>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.8/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="ERPCWeakKeyAttributeFigure">
+      <actualFigure xsi:type="gmfgraph:Ellipse" name="ERPCWeakKeyAttributeEllipseBaseLayout" lineWidth="2">
+        <layout xsi:type="gmfgraph:XYLayout"/>
+        <foregroundColor xsi:type="gmfgraph:RGBColor" red="208" green="137" blue="159"/>
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="239" green="204" blue="216"/>
+        <maximumSize dx="100" dy="40"/>
+        <minimumSize dx="100" dy="40"/>
+        <preferredSize dx="100" dy="40"/>
+        <children xsi:type="gmfgraph:Label" name="ERPCWeakKeyAttributeLabel" text="Set Label...">
+          <font xsi:type="gmfgraph:BasicFont" faceName="Arial" style="BOLD"/>
+          <insets top="10" left="20"/>
+        </children>
+        <children xsi:type="gmfgraph:Polyline" name="ERPCWeakKeyAttributeLabelUnderline" lineWidth="4" lineKind="LINE_DOT">
+          <layoutData xsi:type="gmfgraph:XYLayoutData">
+            <topLeft x="10" y="24"/>
+            <size dx="80" dy="4"/>
+          </layoutData>
+          <foregroundColor xsi:type="gmfgraph:ConstantColor" value="black"/>
+          <backgroundColor xsi:type="gmfgraph:ConstantColor" value="black"/>
+          <maximumSize dx="80" dy="4"/>
+          <minimumSize dx="80" dy="4"/>
+          <preferredSize dx="80" dy="4"/>
+          <template/>
+          <template x="80"/>
+        </children>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.9/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="ERPCDerivedAttributeFigure">
+      <actualFigure xsi:type="gmfgraph:Ellipse" name="ERPCWeakDerivedAttributeEllipseBaseLayout" lineWidth="2" lineKind="LINE_DASH">
+        <layout xsi:type="gmfgraph:XYLayout"/>
+        <foregroundColor xsi:type="gmfgraph:RGBColor"/>
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="244" green="241" blue="189"/>
+        <maximumSize dx="100" dy="40"/>
+        <minimumSize dx="100" dy="40"/>
+        <preferredSize dx="100" dy="40"/>
+        <children xsi:type="gmfgraph:Label" name="ERPCDerivedAttributeLabel" text="Set Label...">
+          <font xsi:type="gmfgraph:BasicFont" faceName="Arial" style="BOLD"/>
+          <insets top="10" left="20"/>
+        </children>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.10/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="ERPCMultiValuedAttributeFigure">
+      <actualFigure xsi:type="gmfgraph:Ellipse" name="ERPCMultiValuedAttributeEllipseBaseLayout" lineWidth="2">
+        <layout xsi:type="gmfgraph:XYLayout"/>
+        <foregroundColor xsi:type="gmfgraph:RGBColor" red="151" green="151" blue="151"/>
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="218" green="218" blue="218"/>
+        <maximumSize dx="100" dy="40"/>
+        <minimumSize dx="100" dy="40"/>
+        <preferredSize dx="100" dy="40"/>
+        <children xsi:type="gmfgraph:Ellipse" name="ERPCMultiValuedAttributeEllipseInternal" lineWidth="2">
+          <layoutData xsi:type="gmfgraph:XYLayoutData">
+            <topLeft x="5" y="5"/>
+            <size dx="90" dy="30"/>
+          </layoutData>
+          <layout xsi:type="gmfgraph:XYLayout"/>
+          <foregroundColor xsi:type="gmfgraph:RGBColor" red="151" green="151" blue="151"/>
+          <backgroundColor xsi:type="gmfgraph:RGBColor" red="218" green="218" blue="218"/>
+          <maximumSize dx="90" dy="30"/>
+          <minimumSize dx="90" dy="30"/>
+          <preferredSize dx="90" dy="30"/>
+          <children xsi:type="gmfgraph:Label" name="ERPCMultiValuedAttributeLabel" text="Set Label...">
+            <font xsi:type="gmfgraph:BasicFont" faceName="Arial" style="BOLD"/>
+            <insets top="5" left="15"/>
+          </children>
+        </children>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.11/@actualFigure/@children.0/@children.0"/>
+    </descriptors>
+    <descriptors name="ERPCRegularEntityFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="ERPCRegularEntityFigure" lineWidth="2">
+        <layout xsi:type="gmfgraph:XYLayout"/>
+        <foregroundColor xsi:type="gmfgraph:RGBColor" red="67" green="119" blue="76"/>
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="124" green="222" blue="138"/>
+        <maximumSize dx="150" dy="50"/>
+        <minimumSize dx="150" dy="50"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="17" left="45"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ERPCRegularEntityNameFigure" text="Set Label...">
+          <font xsi:type="gmfgraph:BasicFont" faceName="Arial" height="10" style="BOLD"/>
+        </children>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.12/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="ERPCWeakEntityFigure">
+      <actualFigure xsi:type="gmfgraph:Rectangle" name="ERPCWeakEntityRectangleBaseLayout" lineWidth="3">
+        <layout xsi:type="gmfgraph:XYLayout"/>
+        <foregroundColor xsi:type="gmfgraph:RGBColor" red="76" green="119" blue="67"/>
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="129" green="183" blue="115"/>
+        <maximumSize dx="150" dy="50"/>
+        <minimumSize dx="150" dy="50"/>
+        <preferredSize dx="150" dy="50"/>
+        <children xsi:type="gmfgraph:Rectangle" name="ERPCWeakEntityRectangleInternal" lineWidth="3">
+          <layoutData xsi:type="gmfgraph:XYLayoutData">
+            <topLeft x="5" y="5"/>
+            <size dx="140" dy="40"/>
+          </layoutData>
+          <layout xsi:type="gmfgraph:XYLayout"/>
+          <foregroundColor xsi:type="gmfgraph:RGBColor" red="76" green="119" blue="67"/>
+          <backgroundColor xsi:type="gmfgraph:RGBColor" red="129" green="183" blue="115"/>
+          <maximumSize dx="140" dy="40"/>
+          <minimumSize dx="140" dy="40"/>
+          <preferredSize dx="140" dy="40"/>
+          <border xsi:type="gmfgraph:MarginBorder">
+            <insets top="12" left="40"/>
+          </border>
+          <children xsi:type="gmfgraph:Label" name="ERPCWeakEntityLabel" text="Set Label...">
+            <font xsi:type="gmfgraph:BasicFont" faceName="Arial" height="10" style="BOLD"/>
+          </children>
+        </children>
+      </actualFigure>
+      <accessors figure="//@figures.0/@descriptors.13/@actualFigure/@children.0/@children.0"/>
+    </descriptors>
+    <descriptors name="ERPCEntityRelationshipLinkCardinalityLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="ERPCEntityRelationshipLinkCardinalityLabel" text="1">
+        <font xsi:type="gmfgraph:BasicFont" faceName="Arial" style="BOLD"/>
+      </actualFigure>
+    </descriptors>
+  </figures>
+  <nodes name="ERPCRegularRelationshipNodeDiagram" figure="ERPCRegularRelationshipFigure"/>
+  <nodes name="ERPCIdentifyingRelationshipNodeDiagram" figure="ERPCIdentifyingRelationshipFigure"/>
+  <nodes name="ERPCRegularAttributeNodeDiagram" figure="ERPCRegularAttributeFigure"/>
+  <nodes name="ERPCCompositeAttributeNodeDiagram" figure="ERPCCompositeAttributeFigure"/>
+  <nodes name="ERPCPrimaryKeyAttributeNodeDiagram" figure="ERPCPrimaryKeyAttributeFigure"/>
+  <nodes name="ERPCWeakKeyAttributeNodeDiagram" figure="ERPCWeakKeyAttributeFigure"/>
+  <nodes name="ERPCDerivedAttributeNodeDiagram" figure="ERPCDerivedAttributeFigure"/>
+  <nodes name="ERPCMultiValuedAttributeNodeDiagram" figure="ERPCMultiValuedAttributeFigure"/>
+  <nodes name="ERPCRegularEntityNodeDiagram" figure="ERPCRegularEntityFigure"/>
+  <nodes name="ERPCWeakEntityNodeDiagram" figure="ERPCWeakEntityFigure"/>
+  <connections name="ERPCEntityRelationshipLinkConnectionDiagram" figure="ERPCEntityRelationshipLinkFigure"/>
+  <connections name="ERPCEntityAttributeLinkConnectionDiagram" figure="ERPCEntityAttributeLinkFigure"/>
+  <connections name="ERPCRelationshipAttributeLinkConnectionDiagram" figure="ERPCRelationshipAttributeLinkFigure"/>
+  <connections name="ERPCCompositeAttributeAttributeLinkConnectionDiagram" figure="ERPCCompositeAttributeAttributeLinkFigure"/>
+  <labels name="ERPCRegularRelationshipNameDiagramLabel" figure="ERPCRegularRelationshipFigure" elementIcon="false" accessor="//@figures.0/@descriptors.4/@accessors.0"/>
+  <labels name="ERPCRegularRelationshipMinCardinalityDiagramLabel" figure="ERPCRegularRelationshipFigure" elementIcon="false"/>
+  <labels name="ERPCRegularRelationshipMaxCardinalityDiagramLabel" figure="ERPCRegularRelationshipFigure" elementIcon="false"/>
+  <labels name="ERPCIdentifyingRelationshipNameDiagramLabel" figure="ERPCIdentifyingRelationshipFigure" elementIcon="false" accessor="//@figures.0/@descriptors.5/@accessors.0"/>
+  <labels name="ERPCIdentifyingRelationshipMinCardinalityDiagramLabel" figure="ERPCIdentifyingRelationshipFigure" elementIcon="false"/>
+  <labels name="ERPCIdentifyingRelationshipMaxCardinalityDiagramLabel" figure="ERPCIdentifyingRelationshipFigure" elementIcon="false"/>
+  <labels name="ERPCRegularAttributeNameDiagramLabel" figure="ERPCRegularAttributeFigure" elementIcon="false" accessor="//@figures.0/@descriptors.6/@accessors.0"/>
+  <labels name="ERPCCompositeAttributeNameDiagramLabel" figure="ERPCCompositeAttributeFigure" elementIcon="false" accessor="//@figures.0/@descriptors.7/@accessors.0"/>
+  <labels name="ERPCPrimaryKeyAttributeNameDiagramLabel" figure="ERPCPrimaryKeyAttributeFigure" elementIcon="false" accessor="//@figures.0/@descriptors.8/@accessors.0"/>
+  <labels name="ERPCWeakKeyAttributeNameDiagramLabel" figure="ERPCWeakKeyAttributeFigure" elementIcon="false" accessor="//@figures.0/@descriptors.9/@accessors.0"/>
+  <labels name="ERPCDerivedAttributeNameDiagramLabel" figure="ERPCDerivedAttributeFigure" elementIcon="false" accessor="//@figures.0/@descriptors.10/@accessors.0"/>
+  <labels name="ERPCMultiValuedAttributeNameDiagramLabel" figure="ERPCMultiValuedAttributeFigure" elementIcon="false" accessor="//@figures.0/@descriptors.11/@accessors.0"/>
+  <labels name="ERPCRegularEntityNameDiagramLabel" figure="ERPCRegularEntityFigure" elementIcon="false" accessor="//@figures.0/@descriptors.12/@accessors.0"/>
+  <labels name="ERPCWeakEntityNameDiagramLabel" figure="ERPCWeakEntityFigure" elementIcon="false" accessor="//@figures.0/@descriptors.13/@accessors.0"/>
+  <labels name="ERPCEntityRelationshipLinkCardinalityLabelDiagramLabel" figure="ERPCEntityRelationshipLinkCardinalityLabelFigure" resizeConstraint="NONE" elementIcon="false">
+    <facets xsi:type="gmfgraph:AlignmentFacet" alignment="END"/>
+    <facets xsi:type="gmfgraph:LabelOffsetFacet" y="5"/>
+  </labels>
+</gmfgraph:Canvas>

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: E/R Peter Chen Extended GMF Diagrammer - Tests Plug-In
+Bundle-SymbolicName: es.kybele.cevinedit.validation.editors.er_peter_chen_extended.tests;singleton:=true
+Bundle-Version: 0.0.1.a
+Bundle-ClassPath: .
+Bundle-Vendor: Grupo de Investigación Kybele
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: er_peter_chen_extended.tests
+Require-Bundle: org.eclipse.core.runtime,
+ es.kybele.cevinedit.validation.editors.er_peter_chen_extended;visibility:=reexport,
+ org.eclipse.emf.ecore.xmi;visibility:=reexport,
+ org.junit;visibility:=reexport
+Bundle-ActivationPolicy: lazy

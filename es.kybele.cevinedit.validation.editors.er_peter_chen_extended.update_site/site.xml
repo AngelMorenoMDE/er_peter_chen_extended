@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/es.kybele.cevinedit.validation.editors.er_peter_chen_extended.features_0.0.1.a.jar" id="es.kybele.cevinedit.validation.editors.er_peter_chen_extended.features" version="0.0.1.a">
+      <category name="es.kybele.cevinedit.validation.editors.er_peter_chen_extended.main_category"/>
+   </feature>
+   <category-def name="es.kybele.cevinedit.validation.editors.er_peter_chen_extended.main_category" label="E/R Peter Chen Extended GMF Diagrammer"/>
+</site>

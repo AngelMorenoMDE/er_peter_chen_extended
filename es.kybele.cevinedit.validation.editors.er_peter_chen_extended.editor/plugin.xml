@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated er_peter_chen_extended -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="er_peter_chen_extended.presentation.Er_peter_chen_extendedModelWizardID"
+            name="%_UI_Er_peter_chen_extendedModelWizard_label"
+            class="er_peter_chen_extended.presentation.Er_peter_chen_extendedModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/Er_peter_chen_extendedModelFile.gif">
+         <description>%_UI_Er_peter_chen_extendedModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated er_peter_chen_extended -->
+      <editor
+            id="er_peter_chen_extended.presentation.Er_peter_chen_extendedEditorID"
+            name="%_UI_Er_peter_chen_extendedEditor_label"
+            icon="icons/full/obj16/Er_peter_chen_extendedModelFile.gif"
+            extensions="er_peter_chen_extended"
+            class="er_peter_chen_extended.presentation.Er_peter_chen_extendedEditor"
+            contributorClass="er_peter_chen_extended.presentation.Er_peter_chen_extendedActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
